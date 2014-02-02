@@ -25,5 +25,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(IBAction)playButtonEvent:(id)sender
+{
+  if([sender isKindOfClass:[UIButton class]] == YES)
+  {
+    UIButton* button = sender;
+    //button.selected = !button.isSelected;
+    //The same way to write the same function call
+    [button setSelected:![button isSelected]];
+    
+  }
+}
 
 @end
