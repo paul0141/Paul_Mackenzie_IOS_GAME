@@ -22,6 +22,11 @@
 		9B1A23EB189DF01C00244E06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1A23CA189DF01C00244E06 /* UIKit.framework */; };
 		9B1A23F3189DF01C00244E06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B1A23F1189DF01C00244E06 /* InfoPlist.strings */; };
 		9B1A23F5189DF01C00244E06 /* Paul_Mackenzie_IOS_GAMETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1A23F4189DF01C00244E06 /* Paul_Mackenzie_IOS_GAMETests.m */; };
+		9B1A2403189E00DB00244E06 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1A2402189E00DB00244E06 /* OptionsViewController.m */; };
+		9B1A2406189E010C00244E06 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1A2405189E010C00244E06 /* HelpViewController.m */; };
+		9B1A2409189E012C00244E06 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1A2408189E012C00244E06 /* CreditsViewController.m */; };
+		9B1A240C189E015600244E06 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1A240B189E015600244E06 /* StartViewController.m */; };
+		9B1A240F189E017000244E06 /* PauseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1A240E189E017000244E06 /* PauseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,16 @@
 		9B1A23F0189DF01C00244E06 /* Paul_Mackenzie_IOS_GAMETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Paul_Mackenzie_IOS_GAMETests-Info.plist"; sourceTree = "<group>"; };
 		9B1A23F2189DF01C00244E06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B1A23F4189DF01C00244E06 /* Paul_Mackenzie_IOS_GAMETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Paul_Mackenzie_IOS_GAMETests.m; sourceTree = "<group>"; };
+		9B1A2401189E00DB00244E06 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		9B1A2402189E00DB00244E06 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		9B1A2404189E010C00244E06 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		9B1A2405189E010C00244E06 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		9B1A2407189E012C00244E06 /* CreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsViewController.h; sourceTree = "<group>"; };
+		9B1A2408189E012C00244E06 /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsViewController.m; sourceTree = "<group>"; };
+		9B1A240A189E015600244E06 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		9B1A240B189E015600244E06 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		9B1A240D189E017000244E06 /* PauseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseViewController.h; sourceTree = "<group>"; };
+		9B1A240E189E017000244E06 /* PauseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PauseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +135,16 @@
 				9B1A23DB189DF01C00244E06 /* Main_iPad.storyboard */,
 				9B1A23DE189DF01C00244E06 /* ViewController.h */,
 				9B1A23DF189DF01C00244E06 /* ViewController.m */,
+				9B1A2401189E00DB00244E06 /* OptionsViewController.h */,
+				9B1A2402189E00DB00244E06 /* OptionsViewController.m */,
+				9B1A2404189E010C00244E06 /* HelpViewController.h */,
+				9B1A2405189E010C00244E06 /* HelpViewController.m */,
+				9B1A2407189E012C00244E06 /* CreditsViewController.h */,
+				9B1A2408189E012C00244E06 /* CreditsViewController.m */,
+				9B1A240A189E015600244E06 /* StartViewController.h */,
+				9B1A240B189E015600244E06 /* StartViewController.m */,
+				9B1A240D189E017000244E06 /* PauseViewController.h */,
+				9B1A240E189E017000244E06 /* PauseViewController.m */,
 				9B1A23E1189DF01C00244E06 /* Images.xcassets */,
 				9B1A23CD189DF01C00244E06 /* Supporting Files */,
 			);
@@ -253,7 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B1A2406189E010C00244E06 /* HelpViewController.m in Sources */,
 				9B1A23E0189DF01C00244E06 /* ViewController.m in Sources */,
+				9B1A2403189E00DB00244E06 /* OptionsViewController.m in Sources */,
+				9B1A240C189E015600244E06 /* StartViewController.m in Sources */,
+				9B1A2409189E012C00244E06 /* CreditsViewController.m in Sources */,
+				9B1A240F189E017000244E06 /* PauseViewController.m in Sources */,
 				9B1A23D7189DF01C00244E06 /* AppDelegate.m in Sources */,
 				9B1A23D3189DF01C00244E06 /* main.m in Sources */,
 			);
